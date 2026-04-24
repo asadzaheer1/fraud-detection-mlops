@@ -1,0 +1,107 @@
+{
+  "XGBoost_Standard": {
+    "auc": 0.9044,
+    "precision": 0.7853,
+    "recall": 0.4169,
+    "f1": 0.5446,
+    "confusion_matrix": [
+      [
+        113504,
+        471
+      ],
+      [
+        2410,
+        1723
+      ]
+    ],
+    "false_negatives": 2410,
+    "false_positives": 471,
+    "fraud_loss_usd": 1205000,
+    "false_alarm_cost_usd": 4710,
+    "total_business_cost": 1209710
+  },
+  "XGBoost_CostSensitive": {
+    "auc": 0.9044,
+    "precision": 0.7853,
+    "recall": 0.4169,
+    "f1": 0.5446,
+    "confusion_matrix": [
+      [
+        113504,
+        471
+      ],
+      [
+        2410,
+        1723
+      ]
+    ],
+    "false_negatives": 2410,
+    "false_positives": 471,
+    "fraud_loss_usd": 1205000,
+    "false_alarm_cost_usd": 4710,
+    "total_business_cost": 1209710
+  },
+  "LightGBM_Standard": {
+    "auc": 0.9394,
+    "precision": 0.8643,
+    "recall": 0.4701,
+    "f1": 0.609,
+    "confusion_matrix": [
+      [
+        113670,
+        305
+      ],
+      [
+        2190,
+        1943
+      ]
+    ],
+    "false_negatives": 2190,
+    "false_positives": 305,
+    "fraud_loss_usd": 1095000,
+    "false_alarm_cost_usd": 3050,
+    "total_business_cost": 1098050
+  },
+  "LightGBM_CostSensitive": {
+    "auc": 0.9394,
+    "precision": 0.8643,
+    "recall": 0.4701,
+    "f1": 0.609,
+    "confusion_matrix": [
+      [
+        113670,
+        305
+      ],
+      [
+        2190,
+        1943
+      ]
+    ],
+    "false_negatives": 2190,
+    "false_positives": 305,
+    "fraud_loss_usd": 1095000,
+    "false_alarm_cost_usd": 3050,
+    "total_business_cost": 1098050
+  },
+  "Hybrid_RF_LR": {
+    "auc": 0.7093,
+    "precision": 0.0508,
+    "recall": 0.7982,
+    "f1": 0.0955,
+    "confusion_matrix": [
+      [
+        52337,
+        61638
+      ],
+      [
+        834,
+        3299
+      ]
+    ],
+    "false_negatives": 834,
+    "false_positives": 61638,
+    "fraud_loss_usd": 417000,
+    "false_alarm_cost_usd": 616380,
+    "total_business_cost": 1033380
+  }
+}
